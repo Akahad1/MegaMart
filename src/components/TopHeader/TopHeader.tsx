@@ -3,29 +3,33 @@ import React from "react";
 import { FaTruck, FaMapMarkerAlt, FaTags } from "react-icons/fa";
 const TopHeader = () => {
   return (
-    <div className="bg-gray-100 px-4 py-2 flex flex-wrap justify-between items-center text-sm">
-      <p className="flex items-center space-x-2">
-        <FaMapMarkerAlt className="text-blue-500" />
-        <span>Welcome to worldwide MegaMart!</span>
+    <div className="bg-gray-100 px-4 py-2 flex flex-wrap justify-center lg:justify-between items-center text-sm">
+      {/* First Line - Centered on Mobile */}
+      <p className="w-full text-center lg:w-auto flex items-center justify-center text-gray-600">
+        Welcome to worldwide MegaMart!
       </p>
-      <div className="flex flex-wrap items-center space-x-4 mt-2 lg:mt-0">
+
+      {/* Second Line - Flex with Wrapping */}
+      <div className="flex flex-wrap justify-center lg:justify-end items-center space-x-4 mt-2 lg:mt-0">
         <span className="flex items-center space-x-1">
-          <FaTruck className="text-green-500" />
-          <span>Deliver to 423651</span>
+          <FaMapMarkerAlt className="text-blue-500" />
+          <span className="text-gray-600">
+            Deliver to <span className="text-black">423651</span>
+          </span>
         </span>
         <Link
           href="/track-order"
           className="flex items-center space-x-1 hover:underline"
         >
-          <FaTruck className="text-gray-500" />
-          <span>Track your order</span>
+          <FaTruck className="text-blue-500" />
+          <span className="text-gray-500">Track your order</span>
         </Link>
         <Link
           href="/offers"
           className="flex items-center space-x-1 hover:underline"
         >
-          <FaTags className="text-yellow-500" />
-          <span>All Offers</span>
+          <FaTags className="text-blue-500" />
+          <span className="text-gray-500">All Offers</span>
         </Link>
       </div>
     </div>

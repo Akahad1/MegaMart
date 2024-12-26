@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import TopHeader from "@/components/TopHeader/TopHeader";
+import Navber from "@/components/Navber/Navber";
 
 export const metadata: Metadata = {
   title: "MegaMart",
@@ -16,8 +16,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <TopHeader></TopHeader>
-        {children}
+        <Navber></Navber>
+        <div className="container mx-auto max-w-7xl  ">{children}</div>
       </body>
     </html>
   );

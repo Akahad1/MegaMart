@@ -1,9 +1,9 @@
-import Header from "@/components/Navber/Navber";
+import Carousel from "@/components/Carousel/Carousel";
 
 export default function Home() {
   return (
     <div>
-      <Header></Header>
+      <Carousel></Carousel>
     </div>
   );
 }
