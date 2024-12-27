@@ -69,13 +69,19 @@ const Sections: React.FC<SectionsProps> = ({ DailyProductData }) => {
         {/* Daily Essentials Section */}
         <section>
           <div className="flex justify-between items-center mb-6">
-            <h2 className="text-2xl font-bold">
+            <h2 className="lg:text-2xl lg:w-1/2 md:w-full w-48   text-lg font-bold">
               Daily <span className="text-blue-500">Essentials</span>
             </h2>
-            <a href="#" className="text-blue-500 font-medium">
+            <a href="#" className="text-blue-500 btn  lg:font-medium">
               View All
             </a>
           </div>
+
+          {/* Thin black divider with a thicker blue section */}
+          <div className="w-full h-[1px] bg-[#EDEDED] mb-5">
+            <div className="w-1/4 h-[2px] bg-blue-500"></div>
+          </div>
+
           <motion.div
             className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4"
             initial={{ opacity: 0 }}

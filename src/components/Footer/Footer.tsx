@@ -3,8 +3,8 @@ import { FaWhatsapp, FaPhoneAlt, FaApple, FaGooglePlay } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-blue-500 text-white mt-10 py-10">
-      <div className="container mx-auto px-3 pt-10 max-w-7xl">
+    <footer className="bg-blue-500 text-white mt-10 py-10  ">
+      <div className="container mx-auto px-3 pt-10 lg:max-w-7xl ">
         <div className="flex flex-wrap justify-between">
           {/* Left Section */}
           <div className="mb-6">
