@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mega Mart
 
-## Getting Started
+**Mega Mart** is a static e-commerce website showcasing a variety of products with a visually appealing and user-friendly interface.  
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+View the live project here:  
+[**Mega Mart Live Link**](https://bd-task-five.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Static E-commerce Website**: A clean and minimalistic design showcasing products.  
+- **Responsive Layout**: Optimized for desktop, tablet, and mobile devices.  
+- **Smooth Animations**: Powered by Framer Motion for enhanced interactivity.  
+- **Modern UI**: Built with Tailwind CSS for rapid and responsive styling.  
+- **TypeScript Integration**: Ensures type safety and better code maintainability.
+- 
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: Framework for server-side rendering and static site generation.  
+- **Tailwind CSS**: Utility-first CSS framework for modern UI designs.  
+- **TypeScript**: Enhances JavaScript with type safety.  
+- **Framer Motion**: Library for creating animations and transitions.  
+- **Vercel**: Hosting platform for seamless deployment.  
 
-## Learn More
+## Installation (Optional for Local Viewing)
 
-To learn more about Next.js, take a look at the following resources:
+To view the website locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone [[repository-link](https://github.com/Akahad1/MegaMart.git)]
